@@ -6,7 +6,7 @@ while num > 0:
     sum_nums.append(num%10)
     num //= 10
 print(sum(sum_nums))
-2 вариант
+# 2 вариант
 
 def sum_nums(num):
     return sum(map(int,str(num)))
